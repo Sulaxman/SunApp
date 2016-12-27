@@ -37,6 +37,7 @@ driver=new FirefoxDriver();
   Point point=driver.findElement(By.id("Img1")).getLocation();
   System.out.println("X Position : "+ point.x);
   System.out.println("Y Position : " +point.y);
+  System.out.println("Hello");
   
   }
   
